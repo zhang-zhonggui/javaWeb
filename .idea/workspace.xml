@@ -6,12 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day01/test01/JavaWebServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.27.jar" afterDir="false" />
+    <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="JavaWeb的第一天">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day02/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day02/test/Test1Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day02/test/Test2Servlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day01/test01/JavaWebServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day01/test01/JavaWebServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -159,8 +161,17 @@
       <option name="presentableId" value="Default" />
       <updated>1638610006823</updated>
       <workItem from="1638610007998" duration="320000" />
-      <workItem from="1638750590575" duration="2806000" />
+      <workItem from="1638750590575" duration="2863000" />
+      <workItem from="1638770285603" duration="6655000" />
     </task>
+    <task id="LOCAL-00001" summary="JavaWeb的第一天">
+      <created>1638753446492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638753446492</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,5 +187,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JavaWeb的第一天" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaWeb的第一天" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/GenericServlet.class</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
