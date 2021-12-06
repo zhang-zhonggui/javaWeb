@@ -11,6 +11,7 @@
         <servlet-name>stu</servlet-name>
         <url-pattern>/stu</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>test</servlet-name>
         <servlet-class>com.zzg.day02.test.Test</servlet-class>
@@ -19,4 +20,6 @@
         <servlet-name>test</servlet-name>
         <url-pattern>/test</url-pattern>
     </servlet-mapping>
+
+
 </web-app>

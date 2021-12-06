@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="JavaWeb的第一天">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day02/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day02/test/Test1Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day02/test/Test2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day02/test2/TimeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zzg/day01/test01/JavaWebServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day01/test01/JavaWebServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
@@ -54,6 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,7 +159,7 @@
       <updated>1638610006823</updated>
       <workItem from="1638610007998" duration="320000" />
       <workItem from="1638750590575" duration="2863000" />
-      <workItem from="1638770285603" duration="6655000" />
+      <workItem from="1638770285603" duration="8596000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -171,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638753446492</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JavaWeb的第二天">
+      <created>1638779879541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638779879541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +193,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="JavaWeb的第二天" />
     <MESSAGE value="JavaWeb的第一天" />
     <option name="LAST_COMMIT_MESSAGE" value="JavaWeb的第一天" />
   </component>
