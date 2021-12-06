@@ -48,7 +48,6 @@ public class JavaWebServlet extends HttpServlet {
                 w.write("</tr>");
             }
             w.write("</table>");
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
