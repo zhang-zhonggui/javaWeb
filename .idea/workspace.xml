@@ -6,12 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb第三天课前的练习">
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test01/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/student.jsp" afterDir="false" />
+    <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb第三天">
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test01/DelStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test01/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test01/StudentServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/stu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/student.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +23,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -52,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -164,7 +174,7 @@
       <workItem from="1638770285603" duration="9490000" />
       <workItem from="1638793157988" duration="2107000" />
       <workItem from="1638839266686" duration="6872000" />
-      <workItem from="1638857171673" duration="2149000" />
+      <workItem from="1638857171673" duration="15853000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -222,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638843292343</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="javaWeb第三天">
+      <created>1638859900059</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638859900059</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +263,8 @@
     <MESSAGE value="javaWeb第一天" />
     <MESSAGE value="javaWeb第二天" />
     <MESSAGE value="javaWeb第三天课前的练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="javaWeb第三天课前的练习" />
+    <MESSAGE value="javaWeb第三天" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaWeb第三天" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,19 @@
+A 创建工程
+  file  new  project
+
+B 新工程内容
+  .idea文件夹   .iml 配置文件不需要管 也不需要动
+  src文件夹  这个文件夹是我们写代码的文件夹 也就是说 我们的代码写道src目录下
+
+C 创建一个package包
+  包其实就是文件夹 但是在java中还有一层含义 用来区分不同代码的全限定名
+  选中src  右键new  package  起名字  com.aaa.day01.test
+  包名命名规范： 反域名 全小写
+  com ：  cn  org  java   com代表公司组织 这个代码受法律保护不能随便盗用  org代表公益组织  java 是官方源代码的报名
+  aaa :   公司名称
+  day01:  项目名称
+  test ：  包的功能名称      com.alibaba.taobao.util 工具  com.alibaba.taobao.test 测试
+
+D 创建源文件 Xxxx.java文件
+  选中包 右键  new  javaclass  起名字   Haha
+   文件名有命名规范：  英文  有意义  大驼峰：首字母大写 如果有多个单词 每个单词的首字母都要大写

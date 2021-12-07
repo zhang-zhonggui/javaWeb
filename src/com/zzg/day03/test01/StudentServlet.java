@@ -36,7 +36,7 @@ public class StudentServlet extends HttpServlet {
                 list.add(map);
             }
             conn.close();
-            req.setAttribute("stu",list);
+            req.setAttribute("students",list);
             req.getRequestDispatcher("student.jsp").forward(req,resp);
         } catch (Exception e) {
             e.printStackTrace();
