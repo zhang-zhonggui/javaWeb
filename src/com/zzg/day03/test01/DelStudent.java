@@ -12,7 +12,7 @@ import java.sql.PreparedStatement;
 
 /**
  * @Author: zzg
- * @Description: TODO
+ * @Description: 删除指定的是数据
  * @DateTime: 2021/11/27 9:58
  */
 @WebServlet("/del")
@@ -20,7 +20,9 @@ public class DelStudent extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //获取前端数据转发过的数据
         String id = req.getParameter("id");
+        //根据前端转过来的数据删除数据库转过来的数据
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/hehe", "root", "1012");
@@ -31,6 +33,7 @@ public class DelStudent extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        //重定向到查询的页面
         resp.sendRedirect("/javaWeb/student");
     }
 }

@@ -26,6 +26,7 @@
         <td>地址</td>
         <td>操作</td>
     </tr>
+    //获取共享的数据将他打印在页面上
     <c:forEach var="stu" items="${students}">
 
         <tr>
@@ -42,9 +43,11 @@
 </table>
 
 <script>
+    //如果要删除的话会弹出警示弹框
     function del(id) {
         alert(1)
         if (confirm("真的删除吗")){
+            //将要删除的数据所需要的id转发到后台
             window.location.href="/javaWeb/del?id="+id;
         }
     }

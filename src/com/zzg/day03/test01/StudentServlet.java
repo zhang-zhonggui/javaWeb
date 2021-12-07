@@ -14,13 +14,14 @@ import java.util.Map;
 
 /**
  * @Author: zzg
- * @Description: TODO
+ * @Description: 查询数据库中的内容同时转发到index.jsp中
  * @DateTime: 2021/11/27 9:58
  */
 @WebServlet("/student")
 public class StudentServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //查询数据
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hehe", "root", "1012");
@@ -36,7 +37,9 @@ public class StudentServlet extends HttpServlet {
                 list.add(map);
             }
             conn.close();
+            //将数据存储起来
             req.setAttribute("students",list);
+            //将数据转发出去
             req.getRequestDispatcher("student.jsp").forward(req,resp);
         } catch (Exception e) {
             e.printStackTrace();
