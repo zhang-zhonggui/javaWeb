@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb第三天课前的练习">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test01/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/student.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/stu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,8 @@
       <workItem from="1638750590575" duration="2863000" />
       <workItem from="1638770285603" duration="9490000" />
       <workItem from="1638793157988" duration="2107000" />
-      <workItem from="1638839266686" duration="3576000" />
+      <workItem from="1638839266686" duration="6872000" />
+      <workItem from="1638857171673" duration="2149000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638843205187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="javaWeb第三天课前的练习">
+      <created>1638843292343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638843292343</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
