@@ -33,7 +33,7 @@
             <td>${m.saddress}</td>
             <td>
                 <button type="button" class="btn btn-success">修改</button>
-                <button onClick="delStu(${m.id})"  type="button" class="btn btn-danger">删除</button>
+                <button onClick="delStu(${m.id})" type="button" class="btn btn-danger">删除</button>
             </td>
 
         </tr>
@@ -41,8 +41,8 @@
 </table>
 <script>
     function delStu(id) {
-        if (confirm("真的删除吗")){
-            window.location.href="/javaWeb/delStu?id="+id;
+        if (confirm("真的删除吗")) {
+            window.location.href = "/javaWeb/delStu?id=" + id;
         }
     }
 </script>

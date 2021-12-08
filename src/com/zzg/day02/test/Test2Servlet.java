@@ -23,15 +23,17 @@ public class Test2Servlet extends Test1Servlet {
     public void service(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws ServletException, IOException {
         String method = servletRequest.getMethod();
         if (method.equals("GET")) {
-            doPost(servletRequest,servletResponse);
-        }else if(method.equals("POST")){
-            doGet(servletRequest,servletResponse);
+            doPost(servletRequest, servletResponse);
+        } else if (method.equals("POST")) {
+            doGet(servletRequest, servletResponse);
         }
     }
-    public void  doPost(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws ServletException, IOException {
+
+    public void doPost(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws ServletException, IOException {
         System.out.println(1);
     }
-    public void  doGet(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws ServletException, IOException {
+
+    public void doGet(HttpServletRequest servletRequest, HttpServletResponse servletResponse) throws ServletException, IOException {
         System.out.println(2);
     }
 

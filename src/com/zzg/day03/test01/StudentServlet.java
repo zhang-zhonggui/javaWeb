@@ -28,19 +28,19 @@ public class StudentServlet extends HttpServlet {
             PreparedStatement ps = conn.prepareStatement("select * from student");
             ResultSet rs = ps.executeQuery();
             ResultSetMetaData md = rs.getMetaData();
-            List<Map> list=new ArrayList<>();
+            List<Map> list = new ArrayList<>();
             while (rs.next()) {
                 Map map = new HashMap();
-                for (int i=0; i<md.getColumnCount(); i++) {
+                for (int i = 0; i < md.getColumnCount(); i++) {
                     map.put(md.getColumnName(i + 1), rs.getObject(i + 1));
                 }
                 list.add(map);
             }
             conn.close();
             //将数据存储起来
-            req.setAttribute("students",list);
+            req.setAttribute("students", list);
             //将数据转发出去
-            req.getRequestDispatcher("student.jsp").forward(req,resp);
+            req.getRequestDispatcher("student.jsp").forward(req, resp);
         } catch (Exception e) {
             e.printStackTrace();
         }

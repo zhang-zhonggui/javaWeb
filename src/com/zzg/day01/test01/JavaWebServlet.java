@@ -24,7 +24,7 @@ public class JavaWebServlet extends HttpServlet {
         PrintWriter w = resp.getWriter();
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hehe?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC","root","1012");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hehe?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC", "root", "1012");
             PreparedStatement ps = conn.prepareStatement("select * from student");
             ResultSet rs = ps.executeQuery();
             ResultSetMetaData md = rs.getMetaData();
@@ -41,10 +41,10 @@ public class JavaWebServlet extends HttpServlet {
             w.write("<table border='1'>");
             for (Map<String, Object> map : list) {
                 w.write("<tr>");
-                w.write("<td>"+ map.get("id")  +"</td>");
-                w.write("<td>"+ map.get("sname")  +"</td>");
-                w.write("<td>"+ map.get("sage")  +"</td>");
-                w.write("<td>"+ map.get("saddress")  +"</td>");
+                w.write("<td>" + map.get("id") + "</td>");
+                w.write("<td>" + map.get("sname") + "</td>");
+                w.write("<td>" + map.get("sage") + "</td>");
+                w.write("<td>" + map.get("saddress") + "</td>");
                 w.write("</tr>");
             }
             w.write("</table>");

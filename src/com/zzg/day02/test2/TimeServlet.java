@@ -1,6 +1,5 @@
 package com.zzg.day02.test2;
 
-import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +14,7 @@ import java.io.IOException;
  */
 @WebServlet("/test2")
 public class TimeServlet extends HttpServlet {
-    public  TimeServlet(){
+    public TimeServlet() {
         System.out.println("函数被构造时");
     }
 

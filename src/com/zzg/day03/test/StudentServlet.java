@@ -1,8 +1,6 @@
 package com.zzg.day03.test;
 
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -29,17 +27,17 @@ public class StudentServlet extends HttpServlet {
             PreparedStatement ps = conn.prepareStatement("select * from student");
             ResultSet rs = ps.executeQuery();
             ResultSetMetaData md = rs.getMetaData();
-            List<Map> list=new ArrayList<>();
+            List<Map> list = new ArrayList<>();
             while (rs.next()) {
                 Map map = new HashMap();
-                for (int i = 0; i < md.getColumnCount();i++){
-                    map.put(md.getColumnName(i+1),rs.getObject(i+1));
+                for (int i = 0; i < md.getColumnCount(); i++) {
+                    map.put(md.getColumnName(i + 1), rs.getObject(i + 1));
                 }
                 list.add(map);
             }
             conn.close();
-            req.setAttribute("stu",list);
-            req.getRequestDispatcher("stu.jsp").forward(req,resp);
+            req.setAttribute("stu", list);
+            req.getRequestDispatcher("stu.jsp").forward(req, resp);
         } catch (Exception e) {
             e.printStackTrace();
         }

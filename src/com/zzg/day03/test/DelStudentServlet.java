@@ -20,14 +20,14 @@ public class DelStudentServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("id");
-        String sql="delete  from studnet where id=?";
+        String sql = "delete  from studnet where id=?";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hehe", "root", "1012");
             PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setObject(1,id);
+            ps.setObject(1, id);
             int i = ps.executeUpdate();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         resp.sendRedirect("javaWeb/delStu?id=1");

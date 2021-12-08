@@ -17,7 +17,6 @@
           integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
 <body>
-
 <table class="table table-striped">
     <tr>
         <td>id</td>
@@ -26,9 +25,8 @@
         <td>地址</td>
         <td>操作</td>
     </tr>
-    //获取共享的数据将他打印在页面上
+    <%--获取共享的数据将他打印在页面上--%>
     <c:forEach var="stu" items="${students}">
-
         <tr>
             <td>${stu.id}</td>
             <td>${stu.sname}</td>
@@ -43,12 +41,11 @@
 </table>
 
 <script>
-    //如果要删除的话会弹出警示弹框
+    // 如果要删除的话会弹出警示弹框
     function del(id) {
-        alert(1)
-        if (confirm("真的删除吗")){
+        if (confirm("真的删除吗")) {
             //将要删除的数据所需要的id转发到后台
-            window.location.href="/javaWeb/del?id="+id;
+            window.location.href = "/javaWeb/del?id=" + id;
         }
     }
 </script>
