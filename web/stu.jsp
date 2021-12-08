@@ -17,6 +17,11 @@
           integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
 <body>
+<div class="jumbotron" style="margin: 0 auto">
+    <h1>student表</h1>
+    <p>增删改查</p>
+    <p><a class="btn btn-primary btn-lg" href="/javaWeb/addstu.jsp" role="button">添加</a></p>
+</div>
 <table class="table table-bordered table-hover active table-responsive">
     <tr>
         <td>id</td>
@@ -32,7 +37,7 @@
             <td>${m.sage} </td>
             <td>${m.saddress}</td>
             <td>
-                <button type="button" class="btn btn-success">修改</button>
+                <a type="button" href="/javaWeb/getStu?id=${m.id}"  class="btn btn-success">修改</a>
                 <button onClick="delStu(${m.id})" type="button" class="btn btn-danger">删除</button>
             </td>
 
