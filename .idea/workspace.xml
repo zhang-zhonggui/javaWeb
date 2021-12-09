@@ -6,15 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的学习">
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/UpdataStuServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/addstu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/updata.jsp" afterDir="false" />
+    <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/stu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -39,6 +34,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -61,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/zzg/day03/util" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -70,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\javaWeb\src\com\zzg\day03\util" />
       <recent name="F:\java\javaWeb\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -268,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638923986975</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="javaWeb的全套增删改查">
+      <created>1639037374892</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639037374892</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +300,8 @@
     <MESSAGE value="javaWeb第三天课前的练习" />
     <MESSAGE value="javaWeb第三天" />
     <MESSAGE value="javaWeb的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="javaWeb的学习" />
+    <MESSAGE value="javaWeb的全套增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaWeb的全套增删改查" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
