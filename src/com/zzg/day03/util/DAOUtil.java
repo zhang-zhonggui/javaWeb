@@ -12,21 +12,20 @@ import java.util.Map;
  * @DateTime: 2021/11/27 9:58
  */
 public class DAOUtil {
-    private static final String Class_NAME_Driver = "com.mysql.cj.jdbc.Driver";
+    private static final String CLASS_NAME_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String URL = "jdbc:mysql://localhost:3306/hehe";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "1012";
-
     static {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName(CLASS_NAME_DRIVER);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/hehe", "root", "1012");
+        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
     }
 
     public static List<Map> request(String sql, Object... obj) {
