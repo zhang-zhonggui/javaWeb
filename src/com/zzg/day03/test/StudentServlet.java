@@ -20,8 +20,9 @@ import java.util.Map;
 public class StudentServlet extends HttpServlet {
     @Override
     public void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //书写sql语句
         String sql = "select * from student";
-
+        //通过sql与将数据查询出来并展示到stu.jsp中
         List<Map<String, Object>> list = DAOUtil.request(sql);
         req.setAttribute("stu", list);
         req.getRequestDispatcher("stu.jsp").forward(req, resp);
