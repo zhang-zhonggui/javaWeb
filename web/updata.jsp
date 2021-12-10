@@ -9,7 +9,7 @@
 <body>
 <fieldset  style="margin:100px auto;padding:30px;width:50%;">
     <legend>学生修改</legend>
-    <form class="form-horizontal" action="/javaWeb/updataStu" method="post" >
+    <form class="form-horizontal" action="/javaWeb/updateStu" method="post" >
         <input type="hidden" class="form-control" name="id"  value="${stu.id}">
         <div class="form-group">
             <label class="col-sm-2 control-label">姓名</label>

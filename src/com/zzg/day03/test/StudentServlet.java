@@ -22,7 +22,7 @@ public class StudentServlet extends HttpServlet {
     public void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String sql = "select * from student";
 
-        List<Map> list = DAOUtil.request(sql);
+        List<Map<String, Object>> list = DAOUtil.request(sql);
         req.setAttribute("stu", list);
         req.getRequestDispatcher("stu.jsp").forward(req, resp);
 

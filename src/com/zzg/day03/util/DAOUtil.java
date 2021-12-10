@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author: zzg
- * @Description: 将公共部分进行封装
  * @DateTime: 2021/11/27 9:58
+ * @Description: 将公共部分进行封装
+ * @Author: zzg
  */
 public class DAOUtil {
     //设置常量用来消除魔法值
@@ -17,6 +17,7 @@ public class DAOUtil {
     private static final String URL = "jdbc:mysql://localhost:3306/hehe";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "1012";
+
     static {
         try {
             //加载驱动
@@ -30,8 +31,15 @@ public class DAOUtil {
         //连接数据库
         return DriverManager.getConnection(URL, USERNAME, PASSWORD);
     }
-//获取传入的数据，然后对数据库进行操作，返回List<Map>的数据
-    public static List<Map> request(String sql, Object... obj) {
+
+    /**
+     *
+     * @param sql 查询的sql语句
+     * @param obj 查询所需的条件
+     * @return List<Map>的数据
+     * 获取传入的数据，然后对数据库进行操作，返回List<Map>的数据
+     */
+    public static List<Map<String, Object>> request(String sql, Object... obj) {
         Connection conn = null;
         try {
             conn = DAOUtil.getConnection();
@@ -41,9 +49,9 @@ public class DAOUtil {
             }
             ResultSet rs = ps.executeQuery();
             ResultSetMetaData md = rs.getMetaData();
-            List<Map> list = new ArrayList<>();
+            List<Map<String, Object>> list = new ArrayList<>();
             while (rs.next()) {
-                Map map = new HashMap();
+                Map<String, Object> map = new HashMap<>();
                 for (int i = 0; i < md.getColumnCount(); i++) {
                     map.put(md.getColumnName(i + 1), rs.getObject(i + 1));
                 }
@@ -52,7 +60,7 @@ public class DAOUtil {
             return list;
         } catch (Exception e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             if (conn != null) {
                 try {
                     conn.close();
@@ -63,7 +71,12 @@ public class DAOUtil {
         }
         return null;
     }
-    //获取传入的数据，然后对数据库进行增删改操作，返回int数据判断数据是否成功
+
+    /**
+     * @param sql 查询的sql语句
+     * @param obj 需要修改的参数
+     * @return 看数据是否修改成功
+     */
     public static int update(String sql, Object... obj) {
         Connection conn = null;
         try {
@@ -76,7 +89,7 @@ public class DAOUtil {
             return ps.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             if (conn != null) {
                 try {
                     conn.close();

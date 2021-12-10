@@ -15,7 +15,7 @@
 <body>
 <fieldset  style="margin:100px auto;padding:30px;width:50%;">
     <legend>学生添加</legend>
-    <form class="form-horizontal" action="/javaWeb/addstu" method="post" >
+    <form class="form-horizontal" action="/javaWeb/addStu" method="post" >
         <div class="form-group">
             <label class="col-sm-2 control-label">姓名</label>
             <div class="col-sm-10">
@@ -25,7 +25,7 @@
         <div class="form-group">
             <label class="col-sm-2 control-label">年龄</label>
             <div class="col-sm-10">
-                <input " class="form-control" name="age"  placeholder="请输入学生年龄">
+                <input  class="form-control" name="age"  placeholder="请输入学生年龄">
             </div>
         </div>
 

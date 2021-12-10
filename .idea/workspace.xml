@@ -7,8 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/UpdataStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/UpdateStuServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addstu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addstu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/updata.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/updata.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -183,6 +190,8 @@
       <workItem from="1638883836955" duration="1060000" />
       <workItem from="1638923072423" duration="12816000" />
       <workItem from="1639044049267" duration="4541000" />
+      <workItem from="1639051579016" duration="901000" />
+      <workItem from="1639100682180" duration="1446000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -289,7 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639047103848</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="javaWeb的全套增删改查">
+      <created>1639051588324</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639051588324</updated>
+    </task>
+    <task id="LOCAL-00017" summary="javaWeb的全套增删改查">
+      <created>1639051760915</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639051760917</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
