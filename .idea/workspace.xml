@@ -7,16 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/druid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day05/servlet/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day05/util/DAOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day06/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.2.8.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/UpdataStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/UpdateStuServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/addstu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addstu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/updata.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/updata.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/stu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +64,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Properties" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -79,9 +79,12 @@
       <recent name="F:\java\javaWeb\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\javaWeb\web\WEB-INF\lib" />
       <recent name="F:\java\javaWeb\web" />
       <recent name="F:\java\javaWeb\web\WEB-INF" />
-      <recent name="F:\java\javaWeb\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzg.day05.util" />
     </key>
   </component>
   <component name="RunManager">
@@ -191,7 +194,9 @@
       <workItem from="1638923072423" duration="12816000" />
       <workItem from="1639044049267" duration="4541000" />
       <workItem from="1639051579016" duration="901000" />
-      <workItem from="1639100682180" duration="1446000" />
+      <workItem from="1639100682180" duration="4554000" />
+      <workItem from="1639117017052" duration="1324000" />
+      <workItem from="1639202023621" duration="8684000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -312,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639051760917</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="javaWeb的全套增删改查">
+      <created>1639102148246</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639102148246</updated>
+    </task>
+    <task id="LOCAL-00019" summary="javaWeb的全套增删改查">
+      <created>1639102409749</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639102409749</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,11 +340,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="3a67d9ef-f845-407d-b877-040761c62a9d">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/java/javaWeb/src/com/zzg/day03/test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3a67d9ef-f845-407d-b877-040761c62a9d" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>

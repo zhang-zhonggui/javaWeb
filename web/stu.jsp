@@ -3,13 +3,6 @@
 <%@ page import="java.util.List" %>
 
 
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2021/12/7
-  Time: 9:18
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
     <title>Title</title>
@@ -17,7 +10,7 @@
           integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
 <body>
-<div class="jumbotron" style="margin: 0 auto">
+<div class="jumbotron" style="margin: 0 auto; text-align: center" >
     <h1>student表</h1>
     <p>增删改查</p>
     <p><a class="btn btn-primary btn-lg" href="/javaWeb/addstu.jsp" role="button">添加</a></p>
