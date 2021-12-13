@@ -7,18 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_12_6_16_38_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_12_6_16_38__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/AdminDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/Impl/AdminDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/Impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/updatename.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/updatepassword.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/AddStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/DelStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/DelStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/GetStuServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/UpdateStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/UpdateStuServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test01/DelStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test01/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/AddStudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/DelStudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/GetStuServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/UpdateStuServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addstu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addstu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/stu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/student.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/updata.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/updata.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -45,7 +54,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/com/zzg/day03/servlet/AddStudentServlet.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/zzg/day02/test/Test.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +96,8 @@
       <recent name="F:\java\javaWeb\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\javaWeb\src\com\zzg\day03\dao\Impl" />
+      <recent name="F:\java\javaWeb\src\com\zzg\day03\dao" />
       <recent name="F:\java\javaWeb\web\WEB-INF\lib" />
       <recent name="F:\java\javaWeb\web" />
       <recent name="F:\java\javaWeb\web\WEB-INF" />
@@ -212,7 +222,7 @@
       <workItem from="1639359860280" duration="525000" />
       <workItem from="1639362169705" duration="126000" />
       <workItem from="1639374731510" duration="5596000" />
-      <workItem from="1639388848201" duration="2372000" />
+      <workItem from="1639388848201" duration="12043000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -361,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639385073629</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="javaWeb的全套增删改查">
+      <created>1639391763572</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1639391763573</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -40,7 +40,7 @@
 <script>
     function delStu(id) {
         if (confirm("真的删除吗")) {
-            window.location.href = "/javaWeb/delStu?id=" + id;
+            window.location.href = "/javaWeb/s/delStu?id=" + id;
         }
     }
 </script>

@@ -23,7 +23,8 @@
 <body>
 <fieldset>
     <legend>登录</legend>
-    <form class="form-horizontal" method="post" action="/admin/login">
+    <span class="btn btn-danger">${msg}</span>
+    <form class="form-horizontal" method="post" action="/javaWeb/admin/login">
         <div class="form-group">
             <label class="col-sm-2 control-label">账号</label>
             <div class="col-sm-10">

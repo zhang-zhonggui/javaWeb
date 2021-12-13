@@ -39,7 +39,7 @@
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <button type="submit" class="btn btn-default">添加</button>
-                <a href="/javaWeb/s" class="btn btn-default">返回</a>
+                <a href="/javaWeb/s/inquireStu" class="btn btn-default">返回</a>
             </div>
         </div>
     </form>
