@@ -1,10 +1,13 @@
 package com.zzg.day03.util;
 
+import com.alibaba.druid.pool.DruidDataSourceFactory;
+
+import javax.sql.DataSource;
+import java.io.InputStream;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+
+import static sun.plugin.javascript.navig.JSType.URL;
 
 /**
  * @DateTime: 2021/11/27 9:58
@@ -12,28 +15,30 @@ import java.util.Map;
  * @Author: zzg
  */
 public class DAOUtil {
-    //设置常量用来消除魔法值
-    private static final String CLASS_NAME_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/hehe";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "1012";
+    private  static DataSource  dataSource=null;
 
     static {
         try {
             //加载驱动
-            Class.forName(CLASS_NAME_DRIVER);
-        } catch (ClassNotFoundException e) {
+            Properties properties = new Properties();
+            InputStream is = DAOUtil.class.getClassLoader().getResourceAsStream("druid.properties");
+            if (is != null){
+                properties.load(is);
+            }else{
+                System.out.println(1);
+            }
+            dataSource = DruidDataSourceFactory.createDataSource(properties);
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public static Connection getConnection() throws SQLException {
         //连接数据库
-        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        return dataSource.getConnection();
     }
 
     /**
-     *
      * @param sql 查询的sql语句
      * @param obj 查询所需的条件
      * @return List<Map>的数据

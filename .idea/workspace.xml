@@ -7,14 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
-      <change afterPath="$PROJECT_DIR$/resources/druid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day05/servlet/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day05/util/DAOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day06/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/stu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/druid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day05/servlet/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day05/util/DAOUtil.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/zzg/day03/test/AddStudentServlet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/zzg/day02/test/Test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/com/zzg/day03/test/StudentServlet.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -68,13 +72,15 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\javaWeb\web\WEB-INF" />
+      <recent name="F:\java\javaWeb\resources" />
       <recent name="F:\java\javaWeb\src\com\zzg\day03\util" />
       <recent name="F:\java\javaWeb\web\WEB-INF\lib" />
     </key>
@@ -197,6 +203,12 @@
       <workItem from="1639100682180" duration="4554000" />
       <workItem from="1639117017052" duration="1324000" />
       <workItem from="1639202023621" duration="8684000" />
+      <workItem from="1639358771375" duration="527000" />
+      <workItem from="1639359348074" duration="221000" />
+      <workItem from="1639359604168" duration="214000" />
+      <workItem from="1639359860280" duration="525000" />
+      <workItem from="1639362169705" duration="126000" />
+      <workItem from="1639374731510" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -398,6 +410,10 @@
           <line>26</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
