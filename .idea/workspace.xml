@@ -7,15 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/druid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/util/DAOUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day05/servlet/StudentServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day05/util/DAOUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/test/GetStuServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +202,7 @@
       <workItem from="1639359604168" duration="214000" />
       <workItem from="1639359860280" duration="525000" />
       <workItem from="1639362169705" duration="126000" />
-      <workItem from="1639374731510" duration="1048000" />
+      <workItem from="1639374731510" duration="4397000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -343,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639102409749</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="javaWeb的全套增删改查">
+      <created>1639375793804</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639375793804</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

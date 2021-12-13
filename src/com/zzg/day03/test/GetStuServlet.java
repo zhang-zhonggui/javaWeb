@@ -28,6 +28,7 @@ public class GetStuServlet extends HttpServlet {
         List<Map<String, Object>> list = DAOUtil.request(sql, id);
         //将数据转发到update.jsp中
         req.setAttribute("stu", list.get(0));
+
         req.getRequestDispatcher("updata.jsp").forward(req, resp);
 
     }
