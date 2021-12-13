@@ -13,6 +13,22 @@
           integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
 <body>
+<fieldset>
+    <legend>昵称修改</legend>
+    <form class="form-horizontal" method="post" action="/javaWeb/admin/updatePassword">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">昵称</label>
+            <div class="col-sm-10">
+                <input class="form-control" placeholder="请输入新昵称" name="oldpassword">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" id="submit" onClick="checkpassword()" class="btn btn-default">修改</button>
+            </div>
+        </div>
+    </form>
+</fieldset>
 
 </body>
 </html>

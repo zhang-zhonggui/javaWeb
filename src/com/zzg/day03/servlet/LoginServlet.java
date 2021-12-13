@@ -31,6 +31,8 @@ public class LoginServlet extends HttpServlet {
             login(req, resp);
         }else if (s.equals("updatePassword")){
             updatePassword(req, resp);
+        }else if (s.equals("logout")){
+            logout(req, resp);
         }
     }
 
@@ -55,6 +57,10 @@ public class LoginServlet extends HttpServlet {
             req.setAttribute("msg", "对不起账号或者密码错误");
             req.getRequestDispatcher("/index.jsp").forward(req, resp);
         }
+    }
 
+    protected void logout(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.getSession().invalidate();
+        resp.sendRedirect("/javaWeb");
     }
 }
