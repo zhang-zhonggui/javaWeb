@@ -16,24 +16,24 @@
     fieldset{
         width: 600px;
         margin: 100px auto;
-        border: 2px solid green;
+        border: 3px solid green;
         border-radius: 25px;
     }
 </style>
 <body>
 <fieldset>
     <legend>登录</legend>
-    <form class="form-horizontal">
+    <form class="form-horizontal" method="post" action="/admin/login">
         <div class="form-group">
             <label class="col-sm-2 control-label">账号</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" placeholder="请输入账号">
+                <input type="text" class="form-control" placeholder="请输入账号" name="username">
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-2 control-label">密码</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" placeholder="请输入密码">
+                <input type="password" class="form-control" placeholder="请输入密码" name="password">
             </div>
         </div>
         <div class="form-group">

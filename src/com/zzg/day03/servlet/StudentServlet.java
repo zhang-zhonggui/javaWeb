@@ -1,4 +1,4 @@
-package com.zzg.day03.test;
+package com.zzg.day03.servlet;
 
 import com.zzg.day03.util.DAOUtil;
 

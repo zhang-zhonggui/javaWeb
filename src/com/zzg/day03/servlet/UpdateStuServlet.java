@@ -1,4 +1,4 @@
-package com.zzg.day03.test;
+package com.zzg.day03.servlet;
 
 import com.zzg.day03.util.DAOUtil;
 
@@ -11,27 +11,24 @@ import java.io.IOException;
 
 /**
  * @Author: zzg
- * @Description: 添加数据
+ * @Description: 修改学生材料
  * @DateTime: 2021/11/27 9:58
  */
-@WebServlet("/addStu")
-public class AddStudentServlet extends HttpServlet {
+@WebServlet("/updateStu")
+public class UpdateStuServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //根据传入数据获取，同时设置编码格式，以防乱码。
+        //修改编码格式获取前端传来的数据
         req.setCharacterEncoding("utf-8");
-        //获取前台传入的数据
         String name = req.getParameter("name");
         String age = req.getParameter("age");
         String address = req.getParameter("address");
-        //书写需要执行的sql语句
-        String sql = "insert  into student values (null ,?,?,?)";
-        //定义i活跃语句执行BAOUtil时的是否成功
-        int i = DAOUtil.update(sql, name, age, address);
-        //返回数据用于判断是否添加成功同时对文件进行重定向
-        req.setAttribute("code", i);
-        req.getRequestDispatcher("addstu.jsp").forward(req, resp);
-
+        String id = req.getParameter("id");
+        //书写sql语句
+        String sql = "update student set sname=?,sage=?,saddress=? where id=?";
+        //执行sql语句并重定向的查询中，重新进行展示
+        DAOUtil.update(sql, name, age, address, id);
+        resp.sendRedirect("/javaWeb/s");
 
     }
 }
