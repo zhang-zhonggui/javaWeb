@@ -11,26 +11,22 @@
 </head>
 <body>
 <div class="jumbotron" style="margin: 0 auto; text-align: center" >
-    <h1>student表</h1>
+    <h1>class表</h1>
     <p>增删改查</p>
-    <p><a class="btn btn-primary btn-lg" href="/javaWeb/addstu.jsp" role="button">添加</a></p>
+    <p><a class="btn btn-primary btn-lg" href="/javaWeb/addClass.jsp" role="button">添加</a></p>
 </div>
 <table class="table table-bordered table-hover active table-responsive">
     <tr>
         <td>id</td>
-        <td>name</td>
-        <td>age</td>
-        <td>address</td>
+        <td>班级</td>
         <td>操作</td>
     </tr>
-    <c:forEach var="m" items="${stu}">
+    <c:forEach var="m" items="${stuClass}">
         <tr>
             <td>${m.id}</td>
-            <td>${m.sname} </td>
-            <td>${m.sage} </td>
-            <td>${m.saddress}</td>
+            <td>${m.grade} </td>
             <td>
-                <a type="button" href="/javaWeb/s/getStu?id=${m.id}"  class="btn btn-success">修改</a>
+                <a type="button" href="/javaWeb/c/getClass?id=${m.id}"  class="btn btn-success">修改</a>
                 <button onClick="delStu(${m.id})" type="button" class="btn btn-danger">删除</button>
             </td>
 
@@ -40,7 +36,7 @@
 <script>
     function delStu(id) {
         if (confirm("真的删除吗")) {
-            window.location.href = "/javaWeb/s/delStu?id=" + id;
+            window.location.href = "/javaWeb/c/delStuClass?id=" + id;
         }
     }
 </script>

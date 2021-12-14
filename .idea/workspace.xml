@@ -7,9 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/Impl/StuClassDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/StuClassDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StuClassServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/addClass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/class.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/updateClass.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/dao/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/AdminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/dao/Impl/AdminDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/Impl/AdminDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addstu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addstu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/stu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/stu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/updatename.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/updatename.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +218,8 @@
       <workItem from="1639359860280" duration="525000" />
       <workItem from="1639362169705" duration="126000" />
       <workItem from="1639374731510" duration="5596000" />
-      <workItem from="1639388848201" duration="13102000" />
+      <workItem from="1639388848201" duration="13269000" />
+      <workItem from="1639441468587" duration="9627000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -369,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639401714015</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="javaWeb的全套增删改查">
+      <created>1639402874511</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1639402874511</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

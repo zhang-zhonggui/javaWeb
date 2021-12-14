@@ -7,4 +7,6 @@ public interface AdminDAO {
     Map<String, Object> login(String username, String password);
 
     int update(String newpassword_one, String oldpassword);
+
+    int updateName(String id, String name);
 }

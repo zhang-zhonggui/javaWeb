@@ -44,5 +44,11 @@
         </div>
     </form>
 </fieldset>
+<script type="text/javascript">
+    window.onload = index;
+    function index(){
+        if(self!=top){top.location=self.location;}
+    }
+</script>
 </body>
 </html>

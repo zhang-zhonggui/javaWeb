@@ -27,4 +27,10 @@ public class AdminDAOImpl implements AdminDAO {
         String sql = "update t_login set password=? where password =?";
         return   DAOUtil.update(sql,newpassword_one,oldpassword);
     }
+
+    @Override
+    public int updateName(String id, String name) {
+        String sql = "update t_login set nickname=? where id=?";
+        return DAOUtil.update(sql,name,id);
+    }
 }

@@ -33,7 +33,25 @@ public class LoginServlet extends HttpServlet {
             updatePassword(req, resp);
         }else if (s.equals("logout")){
             logout(req, resp);
+        }else if (s.equals("update")){
+            update(req, resp);
+        }else if (s.equals("updatename")){
+            updatename(req, resp);
         }
+    }
+
+
+    protected void updatename(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String id = req.getParameter("id");
+        String name = req.getParameter("name");
+        int i = admin.updateName(id, name);
+        resp.sendRedirect("/javaWeb");
+    }
+
+    protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String id = req.getParameter("id");
+        req.setAttribute("id",id);
+        req.getRequestDispatcher("/updatename.jsp").forward(req, resp);
     }
 
     protected void updatePassword(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

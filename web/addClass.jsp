@@ -14,32 +14,19 @@
 </head>
 <body>
 <fieldset  style="margin:100px auto;padding:30px;width:50%;">
-    <legend>学生添加</legend>
-    <form class="form-horizontal" action="/javaWeb/s/addStu" method="post" >
+    <legend>班级添加</legend>
+    <form class="form-horizontal" action="/javaWeb/c/addClass" method="post" >
         <div class="form-group">
-            <label class="col-sm-2 control-label">姓名</label>
+            <label class="col-sm-2 control-label">班级</label>
             <div class="col-sm-10">
-                <input  class="form-control" name="name"  placeholder="请输入学生姓名">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-sm-2 control-label">年龄</label>
-            <div class="col-sm-10">
-                <input  class="form-control" name="age"  placeholder="请输入学生年龄">
-            </div>
-        </div>
-
-        <div class="form-group">
-            <label class="col-sm-2 control-label">地址</label>
-            <div class="col-sm-10">
-                <input  class="form-control" name="address"  placeholder="请输入学生地址">
+                <input  class="form-control" name="name"  placeholder="请输入班级名称">
             </div>
         </div>
 
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <button type="submit" class="btn btn-default">添加</button>
-                <a href="/javaWeb/s/inquireStu" class="btn btn-default">返回</a>
+                <a href="/javaWeb/c/inquireClass" class="btn btn-default">返回</a>
             </div>
         </div>
     </form>

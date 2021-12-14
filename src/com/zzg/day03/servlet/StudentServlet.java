@@ -60,7 +60,7 @@ public class StudentServlet extends HttpServlet {
         Student stu=new Student(0,name,Integer.parseInt(age) , address);
         int i = student.addStu(stu);
         req.setAttribute("code", i);
-        req.getRequestDispatcher("addstu.jsp").forward(req, resp);
+        req.getRequestDispatcher("/addstu.jsp").forward(req, resp);
     }
 
     protected void getStu(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

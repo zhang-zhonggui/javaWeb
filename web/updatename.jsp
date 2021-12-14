@@ -15,11 +15,13 @@
 <body>
 <fieldset>
     <legend>昵称修改</legend>
-    <form class="form-horizontal" method="post" action="/javaWeb/admin/updatePassword">
+    <form class="form-horizontal" method="post" action="/javaWeb/admin/updatename">
+
         <div class="form-group">
+            <input type="hidden" class="form-control" value="${id}" name="id">
             <label class="col-sm-2 control-label">昵称</label>
             <div class="col-sm-10">
-                <input class="form-control" placeholder="请输入新昵称" name="oldpassword">
+                <input class="form-control" placeholder="请输入新昵称" name="name">
             </div>
         </div>
         <div class="form-group">
