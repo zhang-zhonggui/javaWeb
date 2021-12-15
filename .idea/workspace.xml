@@ -7,16 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39ec80c-00bb-4d76-85ce-aec902506157" name="Changes" comment="javaWeb的全套增删改查">
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/entity/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/wd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/Impl/LogBookDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/dao/LogBookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/LogServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/log.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/filter/CharsetFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/filter/CharsetFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/entity/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzg/day03/servlet/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/updatepassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/updatepassword.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +26,9 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Jsp File" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -225,7 +224,7 @@
       <workItem from="1639441468587" duration="12356000" />
       <workItem from="1639463601081" duration="4841000" />
       <workItem from="1639470853152" duration="9871000" />
-      <workItem from="1639528174621" duration="622000" />
+      <workItem from="1639528174621" duration="6782000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb的第一天">
       <created>1638753446492</created>
@@ -416,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639465505387</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="javaWeb的全套增删改查">
+      <created>1639528988561</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1639528988561</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

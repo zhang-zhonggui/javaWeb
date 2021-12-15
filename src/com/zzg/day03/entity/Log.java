@@ -16,10 +16,10 @@ public class Log {
     public Log() {
     }
 
-    public Log(int id, String name, String dare, String way, String ip, int wayId) {
+    public Log(int id, String name, String date, String way, String ip, int wayId) {
         this.id = id;
         this.name = name;
-        this.date = dare;
+        this.date = date;
         this.way = way;
         this.ip = ip;
         this.wayId = wayId;
@@ -41,12 +41,12 @@ public class Log {
         this.name = name;
     }
 
-    public String getDare() {
+    public String getDate() {
         return date;
     }
 
-    public void setDare(String dare) {
-        this.date = dare;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getWay() {
@@ -78,7 +78,7 @@ public class Log {
         return "Log{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", dare='" + date + '\'' +
+                ", date='" + date + '\'' +
                 ", way='" + way + '\'' +
                 ", ip='" + ip + '\'' +
                 ", wayId=" + wayId +
