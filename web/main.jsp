@@ -24,7 +24,7 @@
         <a type="button" class="btn btn-link" target="right" href="/javaWeb/c/inquireClass">班级管理</a>
         <a type="button" class="btn btn-link" target="right" href="/javaWeb/updatepassword.jsp">修改密码</a>
         <a type="button" class="btn btn-link" target="right" href="/javaWeb/admin/update?id=${stu.id}">修改昵称</a>
-        <a type="button" class="btn btn-link" href="/javaWeb/admin/logout">注销</a>
+        <a type="button" class="btn btn-link" href="/javaWeb/wd.jsp">注销</a>
     </div>
     <div class="col-md-11">
         <iframe src="" name="right" style="border:1px solid black;width:100%;height: 800px"></iframe>

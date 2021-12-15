@@ -9,25 +9,24 @@ import java.io.IOException;
  * @Description: filter过滤器，用于设置字符码格式，防止乱码
  * @DateTime: 2021/11/27 9:58
  */
-@WebFilter("/*")
+
 public class CharsetFilter implements Filter {
+   private String charset=null;
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-
+        charset=filterConfig.getInitParameter("charset");
     }
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        System.out.println(1);
         //设置字符格式
-        servletRequest.setCharacterEncoding("utf-8");
+        servletRequest.setCharacterEncoding(charset);
         //放行
         filterChain.doFilter(servletRequest,servletResponse);
-        System.out.println(2);
     }
-
     @Override
     public void destroy() {
+
 
     }
 }

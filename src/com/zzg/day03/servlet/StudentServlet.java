@@ -2,6 +2,7 @@ package com.zzg.day03.servlet;
 
 import com.zzg.day03.dao.Impl.StudentDAOImpl;
 import com.zzg.day03.dao.StudentDAO;
+import com.zzg.day03.entity.Log;
 import com.zzg.day03.entity.Student;
 
 import javax.servlet.ServletException;
@@ -10,6 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -48,6 +51,14 @@ public class StudentServlet extends HttpServlet {
 
     protected void delStu(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("id");
+        String name = req.getParameter("name");
+
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh-mm-ss");
+        String da=sdf.format(date);
+        String ip = req.getRemoteAddr();
+        Log log=new Log(0,name,da,"delStu",ip,Integer.parseInt(id));
+        System.out.println(log);
         student.deleteStu(id);
         resp.sendRedirect("/javaWeb/s/inquireStu");
     }

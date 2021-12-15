@@ -59,7 +59,7 @@ public class LoginServlet extends HttpServlet {
         String p2 = req.getParameter("newpassword_one");
         int update = admin.update(p2, p1);
         req.setAttribute("code",update);
-        req.getRequestDispatcher("/updatepassword.jsp").forward(req, resp);
+        req.getRequestDispatcher("/wd.jsp").forward(req, resp);
 
     }
 

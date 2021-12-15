@@ -34,7 +34,7 @@
         <div class="form-group">
             <label class="col-sm-2 control-label">确认新密码</label>
             <div class="col-sm-10">
-                <input class="form-control" placeholder="请确认密码" id="repw"  name="newpassword_two">
+                <input class="form-control" placeholder="请确认密码" id="repw" name="newpassword_two">
             </div>
         </div>
 
@@ -49,11 +49,11 @@
     function checkpassword() {
         var password = document.getElementById("pw").value;
         var repassword = document.getElementById("repw").value;
-        if(password == repassword) {
-            document.getElementById("tishi").innerHTML="<br><font color='green'>两次密码输入一致</font>";
+        if (password == repassword) {
+            document.getElementById("tishi").innerHTML = "<br><font color='green'>两次密码输入一致</font>";
             document.getElementById("submit").disabled = false;
-        }else {
-            document.getElementById("tishi").innerHTML="<br><font color='red'>两次输入密码不一致!</font>";
+        } else {
+            document.getElementById("tishi").innerHTML = "<br><font color='red'>两次输入密码不一致!</font>";
             document.getElementById("submit").disabled = true;
         }
     }
